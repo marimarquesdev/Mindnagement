@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myFont;
+    src: url(font/Univers-LT-Std-57-Condensed_46340.ttf);
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: myFont;
+    font-size: 18px;
+}
+.slide{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/Consultation\ DAM\ 13\ 02\ 2018.jpg");
+  height: 80%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.slogan{
+    font-size:50px;
+    color: rgb(255, 253, 253,0.9);
+    text-align: center;
+    padding-top: 25%;
+}
+
+.container-fluid{
+    background-color: #0E4D9D!important;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+.logo_container{
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+}
+
+.mr-auto{
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 5px 20px 5px 20px;
+        text-transform: uppercase;
+        margin-left: 37%;
+}
+
+.fab{
+    color: white;
+    background-color: #0E4D9D;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.fab:hover{
+    color: #0E4D9D;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+}
